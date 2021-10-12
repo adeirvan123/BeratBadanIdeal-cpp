@@ -46,15 +46,15 @@ while (true) {
 					cout<<endl;
 					if(berat_laki==ideal_laki) 
 						{
-							cout<<nama<<" usia "<<usia<<" tinggi badan "<<tinggi_laki<<" berat badan "<<berat_laki<<" sangat ideal.";
+							cout<<nama<<" usia "<<usia<<" tinggi badan "<<tinggi_laki<<" berat badan "<<berat_laki<<" : sangat ideal.";
 						}
 					else if(berat_laki<ideal_laki) 
 						{
-							cout<<nama<<" usia "<<usia<<" tinggi badan "<<tinggi_laki<<" berat badan "<<berat_laki<<" terlalu kurus, disarankan untuk mencukupi nutrisi.";
+							cout<<nama<<" usia "<<usia<<" tinggi badan "<<tinggi_laki<<" berat badan "<<berat_laki<<" : terlalu kurus, disarankan untuk mencukupi nutrisi.";
 						}
 					else 
 						{
-							cout<<nama<<" usia "<<usia<<" tinggi badan "<<tinggi_laki<<" berat badan "<<berat_laki<<" terlalu gemuk, disarankan untuk diet.";
+							cout<<nama<<" usia "<<usia<<" tinggi badan "<<tinggi_laki<<" berat badan "<<berat_laki<<" : terlalu gemuk, disarankan untuk diet.";
 						}
 					}
 			}
@@ -83,15 +83,15 @@ while (true) {
 							cout<<endl;
 							if(berat_perem==ideal_perem) 
 								{
-									cout<<nama<<" usia "<<usia<<" tinggi badan "<<tinggi_perem<<" berat badan "<<berat_perem<<" sangat ideal.";
+									cout<<nama<<" usia "<<usia<<" tinggi badan "<<tinggi_perem<<" berat badan "<<berat_perem<<" : sangat ideal.";
 								}
 							else if(berat_perem<ideal_perem) 
 								{
-									cout<<nama<<" usia "<<usia<<" tinggi badan "<<tinggi_perem<<" berat badan "<<berat_perem<<" terlalu kurus, disarankan untuk mencukupi nutrisi.";
+									cout<<nama<<" usia "<<usia<<" tinggi badan "<<tinggi_perem<<" berat badan "<<berat_perem<<" : terlalu kurus, disarankan untuk mencukupi nutrisi.";
 								}
 							else
 								{
-									cout<<nama<<" usia "<<usia<<" tinggi badan "<<tinggi_perem<<" berat badan "<<berat_perem<<" terlalu gemuk, disarankan untuk diet.";
+									cout<<nama<<" usia "<<usia<<" tinggi badan "<<tinggi_perem<<" berat badan "<<berat_perem<<" : terlalu gemuk, disarankan untuk diet.";
 								}
 						}
 				}
@@ -104,7 +104,7 @@ while (true) {
 	}
 	else 
 	{
-		cout<<"Inputankan 1 Atau 2 Saja";
+		cout<<"Inputankan Antara 1, 2, dan 3 Saja!!!";
 	}
 	getch();
 	system("cls");
